@@ -1,7 +1,7 @@
 # SlowSHA
 
 This single-file module implements the hashing algorithms
-sha1, sha224, sha256, sha384, and sha512 in pure Python.
+sha1, sha224, sha256, sha384, and sha512 in pure Python 3.
 The code doesn't contain too many optimisations,
 which makes it fairly easy to read.
 
@@ -18,3 +18,5 @@ is much faster and better tested.
     b'\xaa\xf4\xc6\x1d\xdc\xc5\xe8\xa2\xda\xbe\xde\x0f;H,\xd9\xae\xa9CM'
     >>> slowsha.sha224(b"Hello World")
     <slowsha.SHA224 object at 0xb742262c>
+
+Note that SlowSHA will not work in Python 2.x.
