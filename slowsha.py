@@ -1,4 +1,3 @@
-
 # Copyright (C) 2011 by Stefano Palazzo
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,7 +21,7 @@
 '''
     Pure Python Implementation of SHA1/SHA2
 
-    Create a hash by calling one of the named constuctor functions:
+    Create a hash by calling one of the named constructor functions:
         sha1(), sha224(), sha256(), sha384(), and sha512().
 
     The resulting hash objects have these methods:
